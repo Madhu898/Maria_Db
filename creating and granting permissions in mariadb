@@ -1,0 +1,3 @@
+#########  Giving Access of Our MariaDb to all ips 
+GRANT ALL PRIVILEGES ON your_database.* TO 'your_username'@'%' IDENTIFIED BY 'your_password';
+FLUSH PRIVILEGES;
